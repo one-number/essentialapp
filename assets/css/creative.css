@@ -596,6 +596,12 @@ section#about {
     .btn-xl {
         margin-top: 10px;
     }
+    .dwnld-badge {
+        height: 90px;
+        width: 260px;
+        box-shadow: 5px 5px 5px #888888;
+        border-radius: 15px;
+    }
 }
 
 #about p {
