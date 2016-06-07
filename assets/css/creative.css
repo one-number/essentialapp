@@ -272,19 +272,31 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(min-height: 700px) {
+@media(min-height: 641px) {
     .background {
-        height: 799px;
+        height: 689px;
     }
 }
 
-@media(min-height: 900px) {
+@media(min-height: 690px) {
+    .background {
+        height: 790px;
+    }
+}
+
+@media(min-height: 791px) {
+    .background {
+        height: 800px;
+    }
+}
+
+@media(min-height: 801px) {
     .background {
         height: 1024px;
     }
 }
 
-@media(min-height: 1100px) {
+@media(min-height: 1025px) {
     .background {
         height: 1290px;
     }
@@ -542,9 +554,9 @@ body {
 }
 
 .body-logo {
-    height: 180px;
-    margin-top: -50px;
-    margin-bottom: 30px;
+    height: 400px;
+    margin-top: -80px;
+    margin-bottom: -30px;
 }
 
 .dwnld-badge {
