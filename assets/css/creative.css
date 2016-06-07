@@ -378,12 +378,6 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(max-width: 641px) {
-    .phones {
-        width: 40%;
-    }
-}
-
 .call-to-action h2 {
     margin: 0 auto 20px;
 }
@@ -617,4 +611,10 @@ section#about {
 .col-sm-4 .fa {
     margin: 30px;
     font-size: 8em;
+}
+
+@media(max-width: 641px) {
+    .phones {
+        width: 40%;
+    }
 }
