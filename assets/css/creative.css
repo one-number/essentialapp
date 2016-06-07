@@ -378,7 +378,7 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 641px) {
     .phones {
         width: 40%;
     }
