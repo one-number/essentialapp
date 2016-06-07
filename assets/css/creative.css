@@ -268,13 +268,19 @@ header .header-content .header-content-inner p {
 
 @media(min-height: 480px) {
     .background {
-        height: 640px;
+        height: 645px;
+    }
+    .phones {
+        padding-bottom: 10px;
     }
 }
 
 @media(min-height: 641px) {
     .background {
         height: 689px;
+    }
+    .phones {
+        padding-bottom: 10px;
     }
 }
 
