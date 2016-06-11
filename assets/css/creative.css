@@ -566,8 +566,8 @@ body {
 }
 
 .dwnld-badge {
-    height: 100px;
-    width: 290px;
+    height: 80px;
+    width: 250px;
     box-shadow: 5px 5px 5px #888888;
     border-radius: 20px;
 }
