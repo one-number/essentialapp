@@ -570,6 +570,7 @@ body {
     width: 250px;
     box-shadow: 5px 5px 5px #888888;
     border-radius: 20px;
+    /*padding: 0px 20px;*/
 }
 
 .app-img {
