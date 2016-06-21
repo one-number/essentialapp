@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: 'Lato','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Lato','Helvetica Neue',sans-serif,Arial;
 }
 
 hr {
@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Quicksand','Helvetica Neue',sans-serif,Arial;
 }
 
 h1, h2 {
@@ -249,6 +249,7 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
+
 }
 
 .section-heading {
@@ -266,7 +267,7 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(min-height: 480px) {
+@media(max-height: 640px) {
     .background {
         height: 645px;
     }
@@ -275,8 +276,8 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(min-height: 641px) {
-    .background {
+@media(max-height: 689px) {
+    header, .background {
         height: 689px;
     }
     .phones {
@@ -284,26 +285,26 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(min-height: 690px) {
-    .background {
+@media(max-height: 790px) {
+    header, .background {
         height: 790px;
     }
 }
 
-@media(min-height: 791px) {
-    .background {
+@media(max-height: 800px) {
+    header, .background {
         height: 800px;
     }
 }
 
-@media(min-height: 801px) {
-    .background {
+@media(max-height: 1024spx) {
+    header, .background {
         height: 1024px;
     }
 }
 
 @media(min-height: 1025px) {
-    .background {
+    header, .background {
         height: 1290px;
     }
 }
@@ -590,6 +591,7 @@ section#about {
 @media(max-width: 480px) {
     .phones {
         width: 50%;
+        margin-bottom: 30px;
     }
     .header-content-inner {
         margin-top: 25px;
@@ -620,8 +622,27 @@ section#about {
     font-size: 8em;
 }
 
-@media(max-width: 641px) {
+@media(max-width: 1023px) {
     .phones {
-        width: 40%;
+        width: 80%;
+        margin-bottom: 20px;
     }
 }
+
+@media(max-width: 641px) {
+    .phones {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+}
+
+/*#contact {
+    position: relative;
+}
+
+#copyright {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0px;
+}*/
