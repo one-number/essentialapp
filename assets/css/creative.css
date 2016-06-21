@@ -631,15 +631,15 @@ section#about {
 
 @media(max-width: 679px) {
     .phones {
-        width: 60%;
+        width: 50%;
         margin-bottom: 30px;
     }
 }
 
-@media(max-width: 767px) {
+@media(max-width: 991px) {
     .phones {
-        width: 50%;
-        margin-bottom: 20px;
+        width: 60%;
+        margin-bottom: 30px;
     }
 }
 
