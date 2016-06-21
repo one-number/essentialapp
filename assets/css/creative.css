@@ -227,14 +227,14 @@ header .header-content .header-content-inner p {
         min-height: 100%;
     }
 
-    header .header-content {
+   /* header .header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-    }
+    }*/
 
     header .header-content .header-content-inner {
         margin-top: 70px;
@@ -248,6 +248,10 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 80%;
         font-size: 18px;
+    }
+
+    .background {
+        height: inherit;
     }
 
 }
@@ -539,6 +543,7 @@ body {
 
 .background {
     width: inherit;
+    height: inherit;
     background-image: url(../images/etisalat-bkgd.jpg);
     background-position: center;
     -webkit-background-size: cover;
