@@ -636,6 +636,13 @@ section#about {
     }
 }
 
+@media(max-width: 767px) {
+    .phones {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
 /*#contact {
     position: relative;
 }
