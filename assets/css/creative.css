@@ -638,8 +638,12 @@ section#about {
 
 @media(max-width: 991px) {
     .phones {
-        width: 60%;
-        margin-bottom: 30px;
+        width: 40%;
+        /*margin-bottom: -40px;*/
+        /*margin-top: 20px;*/
+    }
+    header .header-content .header-content-inner {
+        margin-top: 10px;
     }
 }
 
